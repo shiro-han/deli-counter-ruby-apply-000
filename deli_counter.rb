@@ -4,11 +4,11 @@ def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
   else
-    output = "The line is currently: "
+    output = "The line is currently:"
     count = 0
     katz_deli.each do |name|
       count += 1
-      output << "#{count}. #{name} "
+      output << " #{count}. #{name}"
     end
     puts output
   end
